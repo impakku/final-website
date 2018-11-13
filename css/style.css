@@ -235,7 +235,7 @@ header.masthead .intro-text .intro-heading {
   margin: 0 0 15px;
 }
 
-#progr=/am .program-item .program-link {
+#program .program-item .program-link {
   position: relative;
   display: block;
   max-width: 400px;
@@ -388,24 +388,26 @@ header.masthead .intro-text .intro-heading {
 }
 
 .team-member {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
 .team-member img {
-  width: 225px;
-  height: 225px;
+  width: 150px;
+  height: 150px;
   border: 7px solid #fff;
 }
 
 .team-member h4 {
-  margin-top: 25px;
+  margin-top: 15px;
+  font-size: 20px;
   margin-bottom: 0;
   text-transform: none;
 }
 
 .team-member p {
   margin-top: 0;
+  font-size: 14px;
 }
 
 
@@ -455,7 +457,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 .tz-gallery .lightbox img {
-    width: 100%;
+    width: 300px;
+    height: 200px;
     margin-bottom: 30px;
     transition: 0.2s ease-in-out;
     box-shadow: 0 2px 3px rgba(0,0,0,0.2);
